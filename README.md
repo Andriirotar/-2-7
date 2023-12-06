@@ -60,7 +60,7 @@ public:
         // Наприклад, можна змінити координати та розміри відповідно до кута обертання
     }
     void display() const override {
-        std::cout << "Прямокутник - Довжина: " << length << "Ширина: " << width << ", Центр: (" << centerX << ", " << centerY << ")\n";
+        std::cout << "Прямокутник - Довжина: " << length << " Ширина: " << width << ", Центр: (" << centerX << ", " << centerY << ")\n";
     }
 };
 int main() {
