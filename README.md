@@ -32,7 +32,7 @@ public:
         centerY += dy;
     }
     void display() const override {
-        std::cout << "Квадрат - довжина сторони: " << sideLength << ",Центр: (" << centerX << ", " << centerY << ")\n";
+        std::cout << "Квадрат - довжина сторони: " << sideLength << ", Центр: (" << centerX << ", " << centerY << ")\n";
     }
 };
 class Rectangle : public Shape {
@@ -48,7 +48,7 @@ public:
         centerY += dy;
     }
     void display() const override {
-        std::cout << "Прямокутник - Довжина: " << length << "Ширина: " << width << ", Центр: (" << centerX << ", " << centerY << ")\n";
+        std::cout << "Прямокутник - Довжина: " << length << " ,Ширина : " << width << ", Центр: (" << centerX << ", " << centerY << ")\n";
     }
 };
 int main() {
